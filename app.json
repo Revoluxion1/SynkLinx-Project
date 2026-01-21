@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "scheme": "synklinxapp",
+    "name": "SynkLinx",
+    "slug": "SynkLinx",
+    "version": "1.0.0",
+    "jsEngine": "jsc",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/Logos/SynkLinx_Logo.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jjabron.synklinx",
+      "buildNumber": "1.0.28",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Required to connect and receive heart rate and SpO₂ data from SynkLinx device.",
+        "NSBluetoothPeripheralUsageDescription": "Required to communicate with SynkLinx device via Bluetooth.",
+        "NSLocationWhenInUseUsageDescription": "Required to scan for SynkLinx Bluetooth devices while using the app.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": [
+          "bluetooth-central",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE"
+      ],
+      "package": "com.jjabron.synklinx",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03a45810-ec00-4dfc-b838-d9ee155fa514"
+      }
+    }
+  }
+}

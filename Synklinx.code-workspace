@@ -1,15 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "../../../../../Projects/Synklinx"
-		},
-		{
-			"name": "SynkLinx_BLE",
-			"path": "../../../OneDrive/Documents/PlatformIO/Projects/SynkLinx_BLE"
+			"path": ".."
 		}
 	],
-	"settings": {
-		"java.configuration.updateBuildConfiguration": "interactive",
-		"java.compile.nullAnalysis.mode": "automatic"
-	}
+	"settings": {}
 }
