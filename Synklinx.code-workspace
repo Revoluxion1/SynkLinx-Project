@@ -1,11 +1,11 @@
 {
 	"folders": [
 		{
-			"path": "../../../../Projects/Synklinx"
+			"path": "../../../../../Projects/Synklinx"
 		},
 		{
 			"name": "SynkLinx_BLE",
-			"path": "../../OneDrive/Documents/PlatformIO/Projects/SynkLinx_BLE"
+			"path": "../../../OneDrive/Documents/PlatformIO/Projects/SynkLinx_BLE"
 		}
 	],
 	"settings": {
